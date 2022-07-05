@@ -1,3 +1,7 @@
+/**
+ * Дано число 1 ≤ n ≤ 10^7, необходимо найти последнюю цифру n-го числа Фибоначчи.
+ */
+
 let stdin = process.openStdin();
 
 stdin.on('data', function(data) {
