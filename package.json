@@ -1,0 +1,16 @@
+{
+  "name": "stepik_algo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha '**/*.test.js' --recursive --timeout 60000 --exit"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "mocha": "^10.0.0"
+  }
+}
