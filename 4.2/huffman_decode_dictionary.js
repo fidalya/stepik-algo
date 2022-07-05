@@ -1,3 +1,7 @@
+/**
+ * Восстановите строку по её коду и беспрефиксному коду символов.
+ */
+
 export function huffman_decode_dictionary(data) {
     let variables = data.toString().split("\n");
     variables.splice(-1, 1);
