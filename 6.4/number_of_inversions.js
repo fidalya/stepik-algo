@@ -4,6 +4,12 @@
  * (Такая пара элементов называется инверсией массива. Количество инверсий в массиве является в некотором смысле его
  * мерой неупорядоченности: например, в упорядоченном по неубыванию массиве инверсий нет вообще, а в массиве,
  * упорядоченном по убыванию, инверсию образуют каждые два элемента.)
+ * 
+ * The first line contains the number 1 ≤ n ≤ 10^5, and the second one contains the array A[1…n] containing natural numbers not exceeding 10^9.
+ * It is necessary to count the number of pairs of indices 1 ≤ i < j ≤ n for which A[i]>A[j].
+ * (Such a pair of elements is called an array inversion. The number of inversions in an array is, in a sense, 
+ * a measure of disorder: for example, in an array ordered in non-decreasing order, there are no inversions at all, but in an array,
+ * sorted in descending order, every two elements form an inversion.)
  */
 
 let input = '';

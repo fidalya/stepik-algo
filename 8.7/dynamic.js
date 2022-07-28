@@ -1,8 +1,13 @@
 /**
- * лестница
+ * Лестница
  * Даны число 1 ≤ n ≤ 10^2 ступенек лестницы и целые числа -10^4 ≤ a_1, ... , a_n ≤ 10^4, которыми помечены ступеньки.
  * Найдите максимальную сумму, которую можно получить, идя по лестнице снизу вверх (от нулевой до n-й ступеньки),
  * каждый раз поднимаясь на одну или две ступеньки.
+ * 
+ * Stairs
+ * Given the number 1 ≤ n ≤ 10^2 steps of the stairs and integers -10^4 ≤ a_1, ..., a_n ≤ 10^4, which label the steps. 
+ * Find the maximum amount you can get by walking up the ladder from bottom to top (from rung zero to rung n), 
+ * going up one or two rungs each time.
  */
 
 let input = '';

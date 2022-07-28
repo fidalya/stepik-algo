@@ -1,6 +1,9 @@
 /**
  * Вычислите расстояние редактирования двух данных непустых строк длины не более 10^2,
  * содержащих строчные буквы латинского алфавита.
+ * 
+ * The computational absorption distribution of two given non-empty strings 
+ * finds at most 10^2 containing lowercase Latin letters.
  */
 
 let input = '';
