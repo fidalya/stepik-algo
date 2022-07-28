@@ -1,5 +1,5 @@
 import assert from "assert";
-import {fillBackpack, Thing} from "./continuous_backpack";
+import {fillBackpack, Thing} from "./continuous_backpack.js";
 
 describe('continuous_backpack', function() {
     describe('#fillBackpack() should return the maximum cost of item parts.', function() {
