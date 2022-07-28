@@ -1,6 +1,9 @@
 /**
  * Дано целое число 1 ≤ n ≤ 40, необходимо вычислить n-е число Фибоначчи (напомним, что F_0=0, F_1=1,
  * и F_n=F_{n-1}+F_{n-2} при n ≥ 2)
+ * 
+ * Given an integer 1 ≤ n ≤ 40, you need to calculate the nth Fibonacci number 
+ * (recall that F_0=0, F_1=1, and F_n=F_{n-1}+F_{n-2} for n ≥ 2)
  */
 
 let stdin = process.openStdin();

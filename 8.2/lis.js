@@ -2,6 +2,10 @@
  * Дано целое число 1 ≤ n ≤ 10^3 и массив A[1…n] натуральных чисел, не превосходящих 2⋅10^9.
  * Выведите максимальное 1 ≤ k ≤ n, для которого найдётся подпоследовательность 1 ≤ i_1 < i_2 < ... < i_k ≤ n длины k,
  * в которой каждый элемент делится на предыдущий.
+ * 
+ * Given an integer 1 ≤ n ≤ 10^3 and an array A[1…n] of natural numbers not exceeding 2⋅10^9. 
+ * Print the maximum 1 ≤ k ≤ n for which there is a subsequence 1 ≤ i_1 < i_2 < ... < i_k ≤ n of length k, 
+ * in which each element is divided by the previous one.
  */
 
 let input = '';

@@ -1,5 +1,7 @@
 /**
  * Дано число 1 ≤ n ≤ 10^7, необходимо найти последнюю цифру n-го числа Фибоначчи.
+ * 
+ * There is a number 1 ≤ n ≤ 10^7, you need to find the highest digit of the n-th Fibonacci number.
  */
 
 let stdin = process.openStdin();

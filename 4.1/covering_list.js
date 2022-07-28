@@ -2,6 +2,10 @@
  * Покрыть отрезки точками
  * По данным n отрезкам необходимо найти множество точек минимального размера,
  * для которого каждый из отрезков содержит хотя бы одну из точек.
+ * 
+ * Cover segments with dots
+ * Given n segments, it is necessary to find a set of points of minimum size,
+ * for which each of the segments contains at least one of the points.
  */
 
 const stdin = process.openStdin();

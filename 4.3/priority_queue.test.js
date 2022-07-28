@@ -2,8 +2,8 @@ import assert from "assert";
 import {extractMax, insert, main} from "./priority_queue.js";
 
 describe('priority queue', function () {
-    describe('#main()', function () {
-        it('1', function() {
+    describe('#main() should return', function () {
+        it('array without 200 and 500', function() {
             let data = '6 \n' +
                 'Insert 200\n' +
                 'Insert 10\n' +
@@ -14,7 +14,7 @@ describe('priority queue', function () {
             assert.deepEqual(main(data), [10, 5]);
         });
 
-        it('2', function() {
+        it('array without 200', function() {
             let data = '4\n' +
                 'Insert 200\n' +
                 'Insert 200\n' +
@@ -23,14 +23,14 @@ describe('priority queue', function () {
             assert.deepEqual(main(data), [200, 200]);
         });
 
-        it('3', function() {
+        it('empty array', function() {
             let data = '2\n' +
                 'Insert 200\n' +
                 'ExtractMax';
             assert.deepEqual(main(data), []);
         });
 
-        it('4', function() {
+        it('array without 18, 18, 15, 12', function() {
             let data = '11\n' +
                 'Insert 2\n' +
                 'Insert 3\n' +
@@ -47,7 +47,7 @@ describe('priority queue', function () {
             assert.deepEqual(main(data), [12, 3, 2, 2]);
         });
 
-        it('5', function() {
+        it('array without 304', function() {
             let data = '8\n' +
                 'Insert 304\n' +
                 'Insert 255\n' +
@@ -60,7 +60,7 @@ describe('priority queue', function () {
             assert.deepEqual(main(data), [255, 157, 146, 29, 105, 96]);
         });
 
-        it('6', function() {
+        it('empty array', function() {
             let data = '5\n' +
                 'Insert 10\n' +
                 'Insert 10\n' +
@@ -73,7 +73,7 @@ describe('priority queue', function () {
     });
 
     describe('#insert()', function () {
-        it('1', function() {
+        it('should insert element', function() {
             let heap = [];
             insert(heap, 1);
             insert(heap, 5);
@@ -83,7 +83,7 @@ describe('priority queue', function () {
     });
 
     describe('#extractMax()', function () {
-        it('1', function() {
+        it('should extract max value', function() {
             let heap = [];
             insert(heap, 1);
             insert(heap, 5);
@@ -95,15 +95,18 @@ describe('priority queue', function () {
     });
 
     describe('#bouth', function () {
-        it('1', function() {
+        it('check bouth opirations', function() {
             let heap = [];
             let max;
             insert(heap, 200);
             insert(heap, 10);
+
             max = extractMax(heap);
             assert.equal(max, 200);
+
             insert(heap, 5);
             insert(heap, 500);
+
             max = extractMax(heap);
             assert.equal(max, 500);
         });

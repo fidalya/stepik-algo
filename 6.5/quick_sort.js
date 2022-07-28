@@ -1,3 +1,17 @@
+/**
+ * В первой строке задано два целых числа 1 ≤ n ≤ 50000 и 1 ≤ m ≤ 50000 — количество отрезков и точек на прямой, соответственно. 
+ * Следующие nn строк содержат по два целых числа a_i и b_i (a_i ≤ b_i) — координаты концов отрезков. 
+ * Последняя строка содержит m целых чисел — координаты точек. Все координаты не превышают 10^8 по модулю. 
+ * Точка считается принадлежащей отрезку, если она находится внутри него или на границе. Для каждой точки в порядке появления
+ * во вводе выведите, скольким отрезкам она принадлежит.
+ * 
+ * The first line contains two integers 1 ≤ n ≤ 50000 and 1 ≤ m ≤ 50000 — the number of segments and points on the line, 
+ * respectively. The next n lines contain two integers each a_i and b_i (a_i ≤ b_i) — the coordinates of the ends of the segments. 
+ * The last line contains m integers — the coordinates of the points. All coordinates do not exceed 10^8 modulo.
+ * A point is considered to belong to a segment if it is inside it or on the boundary. For each point, 
+ * in order of appearance in the input, output how many segments it belongs to.
+ */
+
 let chunks = [];
 
 process.stdin.on('readable', function () {
