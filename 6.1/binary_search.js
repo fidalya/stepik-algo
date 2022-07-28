@@ -2,6 +2,10 @@
  * В первой строке даны целое число 1 ≤ n ≤ 10^5 и массив A[1…n] из n различных натуральных чисел, не превышающих 10^9,
  * в порядке возрастания, во второй — целое число 1 ≤ k ≤ 10^5 и k натуральных чисел b_1,…,b_k, не превышающих 10^9.
  * Для каждого i от 1 до k необходимо вывести индекс 1 ≤ j ≤ n, для которого A[j] = b_i, или −1, если такого j нет.
+ * 
+ * The first line contains an integer 1 ≤ n ≤ 10^5 and an array A[1…n] of n different natural numbers not exceeding 10^9,
+ * in ascending order, the second one contains an integer 1 ≤ k ≤ 10^5 and k natural numbers b_1,…,b_k not exceeding 10^9.
+ * For each, i from 1 to k, print the index 1 ≤ j ≤ n for which A[j] = b_i, or −1 if there is no such j.
  */
 
 //for platform

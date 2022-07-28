@@ -1,8 +1,13 @@
 /**
  * По данной непустой строке s длины не более 10^4, состоящей из строчных букв латинского алфавита, постройте оптимальный
  * беспрефиксный код. В первой строке выведите количество различных букв k, встречающихся в строке, и размер получившейся
- * закодированной строки. В следующих kk строках запишите коды букв в формате "letter: code".
+ * закодированной строки. В следующих k строках запишите коды букв в формате "letter: code".
  * В последней строке выведите закодированную строку.
+ * 
+ * Given a non-empty string s of length no more than 10^4, consisting of lowercase Latin letters, construct an optimal
+ * unprefixed code. In the first line print the number of distinct letters k in the string and the size of the resulting 
+ * encoded string. In the next k lines write the codes of the letters in the format "letter: code". 
+ * The last line is the encoded string.
  */
 
 const stdin = process.openStdin();

@@ -3,6 +3,11 @@
  * Каждая из следующих n строк задаёт стоимость 0 ≤ c_i ≤ 2⋅10^6. Выведите максимальную стоимость частей предметов
  * (от каждого предмета можно отделить любую часть, стоимость и объём при этом пропорционально уменьшатся),
  * помещающихся в данный рюкзак, с точностью не менее трёх знаков после запятой.
+ * 
+ * The first line contains the number of items 1 ≤ n ≤ 10^3 and the capacity of the backpack 0 ≤ W ≤ 2⋅10^6.
+ * Each of the next n lines specifies the cost 0 ≤ c_i ≤ 2⋅10^6. Print the maximum cost of item parts 
+ * (any part can be separated from each item, the cost and volume will decrease proportionally), 
+ * and fit in this backpack, with an accuracy of at least three decimal places.
  */
 
 const stdin = process.openStdin();

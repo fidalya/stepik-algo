@@ -3,7 +3,13 @@
  * Каждая из последующих n строк задают операцию одного из следующих двух типов:
  * - Insert x, где 0 ≤ x ≤ 10^9 — целое число;
  * - ExtractMax.
- * Первая операция добавляет число xx в очередь с приоритетами, вторая — извлекает максимальное число и выводит его.
+ * Первая операция добавляет число x в очередь с приоритетами, вторая — извлекает максимальное число и выводит его.
+ * 
+ * The first line of the input contains the number of operations 1 ≤ n ≤ 10^5
+ * Each of the next n lines specifies an operation of one of the following two types:
+ * - Insert x, where 0 ≤ x ≤ 10^9 is an integer;
+ * - ExtractMax.
+ * The first operation adds the number xx to the priority queue, and the second one extracts the maximum number and outputs it.
  */
 
 function parentIndex(i) {

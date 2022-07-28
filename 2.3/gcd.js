@@ -1,5 +1,7 @@
 /**
  * По данным двум числам 1 ≤ a,b ≤ 2⋅10^9 найдите их наибольший общий делитель.
+ * 
+ * Given two numbers 1 ≤ a,b ≤ 2⋅10^9 find their greatest common divisor.
  */
 
 let stdin = process.openStdin();
